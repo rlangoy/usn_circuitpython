@@ -18,4 +18,5 @@ image.write_pbm_img(name='img/heart-16x16.pbm',invert=True)
 image.write_pbm_img(name='img/temperature-16x16.pbm',offX=16,invert=True)
 image.write_pbm_img(name='img/temperature-32x32.pbm',offY=16,invert=True)
 disp.show()
-'''
+```
+
