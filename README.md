@@ -1,7 +1,8 @@
 # usn_circuitpython
 Circuit Python tool library used at USN
 
-Class CPImageWriter is used to display Portable GrayMap and Portable BitMap (.pgm and .pbm) on a OLED display
+Class CPImageWriter is used to display monocrome .bmp .pgm and .pbm
+(Windows Bitmap, Portable GrayMap and Portable BitMap) on a OLED display
 
 example:
 ```python
@@ -17,6 +18,8 @@ image =CPImageWriter(disp)
 image.write_pbm_img(name='img/heart-16x16.pbm',invert=True)
 image.write_pbm_img(name='img/temperature-16x16.pbm',offX=16,invert=True)
 image.write_pbm_img(name='img/temperature-32x32.pbm',offY=16,invert=True)
+image.write_bmp_img(name="img/checkbox-checked-32x32.bmp",offX=32,offY=16,invert=True)
+image.write_bmp_img(name="img/checkbox-unchecked-32x32.bmp",offX=64,offY=16,invert=True)
 disp.show()
 ```
 

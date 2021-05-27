@@ -10,6 +10,8 @@ image =CPImageWriter(disp)
 image.write_pbm_img(name='img/heart-16x16.pbm',invert=True)
 image.write_pbm_img(name='img/temperature-16x16.pbm',offX=16,invert=True)
 image.write_pbm_img(name='img/temperature-32x32.pbm',offY=16,invert=True)
+image.write_bmp_img(name="img/checkbox-checked-32x32.bmp",offX=32,offY=16,invert=True)
+image.write_bmp_img(name="img/checkbox-unchecked-32x32.bmp",offX=64,offY=16,invert=True)
 disp.show()
 
 
