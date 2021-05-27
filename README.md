@@ -4,7 +4,9 @@ Circuit Python tool library used at USN
 Class CPImageWriter is used to display monocrome .bmp .pgm and .pbm
 (Windows Bitmap, Portable GrayMap and Portable BitMap) on a OLED display
 
-example:
+### SSD1306 oled bitmap API example:
+<p align="Left"> <img src="doc/output_simpleTest.jpg?raw=true" width="128" title="Program output"> </p>
+ 
 ```python
 import adafruit_ssd1306
 import busio
